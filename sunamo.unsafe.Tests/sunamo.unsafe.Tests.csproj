@@ -1,21 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\sunamo.unsafe\sunamo.unsafe\sunamo.unsafe.csproj" />
     <ProjectReference Include="..\..\sunamo\sunamo\sunamo.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\..\sunamo\Xlf\Xlf.csproj">
+      <Project>{00B76D22-B82F-43FD-AC48-4B1F56E6910F}</Project>
+      <Name>Xlf</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
