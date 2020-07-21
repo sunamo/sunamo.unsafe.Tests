@@ -1,13 +1,13 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo.unsafe.Tests", "sunamo.unsafe.Tests\sunamo.unsafe.Tests.csproj", "{34971584-87BD-4A3C-B883-12CFD9C61D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamoUnsafe.Tests", "sunamoUnsafe.Tests\sunamoUnsafe.Tests.csproj", "{34971584-87BD-4A3C-B883-12CFD9C61D9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunamo", "..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo.unsafe", "..\sunamo.unsafe\sunamo.unsafe\sunamo.unsafe.csproj", "{25FE100A-0BCC-4681-AEE5-B5E9DABC3A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamoUnsafe", "..\sunamoUnsafe\sunamoUnsafe\sunamo.unsafe.csproj", "{25FE100A-0BCC-4681-AEE5-B5E9DABC3A93}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoGoPay.Tests", "..\sunamo.Tests\SunamoGoPay.Tests\SunamoGoPay.Tests.csproj", "{FF18EF76-4645-4A6C-8647-0ECB1378D2D2}"
 EndProject

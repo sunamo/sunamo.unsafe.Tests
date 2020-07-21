@@ -11,7 +11,7 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamo.unsafe\sunamo.unsafe\sunamo.unsafe.csproj" />
+    <ProjectReference Include="..\..\sunamoUnsafe\sunamoUnsafe\sunamo.unsafe.csproj" />
     <ProjectReference Include="..\..\sunamo\sunamo\sunamo.csproj" />
   </ItemGroup>
   <ItemGroup>
